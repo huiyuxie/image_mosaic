@@ -1,7 +1,7 @@
 # Image Mosaic and Inpainting
 
 ## Overview
-This repository, `image_mosaic`, is dedicated to exploring and implementing advanced optimization models to tackle two specific imaging tasks: inpainting and mosaic generation. Our project aims to apply minimization methodologies introduced in academic lectures to solve these complex image processing challenges.
+This repository, `image_mosaic`, is dedicated to exploring and implementing advanced optimization models to tackle two specific imaging tasks: inpainting and mosaic generation. Our project aims to apply methods introduced in academic lectures to solve these complex image processing challenges.
 
 ### Objectives
 - **Inpainting**: Address areas of images that are damaged or missing, restoring them by intelligently filling in the gaps based on the information available in the surrounding areas.
@@ -14,12 +14,15 @@ This project investigates two main classes of imaging problems:
 
 2. **Mosaic Generation**: In this task, the aim is to combine various pieces of images (potentially from multiple sources) into a single cohesive image that represents a new, artistic interpretation of the combined visuals.
 
-## Methods
-The methodologies employed in this project are derived from optimization models discussed in lectures. These include:
+## Features
+- **Convex Optimization Problems**: Developed models to tackle total variation minimization and sparse reconstruction.
+- **Application**: Applied these models to damaged images to reconstruct the missing information effectively.
 
-- Gradient descent methods
-- Convex and non-convex optimization approaches
-- Heuristic algorithms for efficient computation
+- **Linear Convex Optimization**: Created linear models to generate image mosaics from grayscale sources.
+- **Dynamic Sizing**: Enhanced the models to adjust mosaic sizes, enabling the generation of various image outputs based on the same input.
+
+- **Model Adaptation**: Extended the linear convex models to work with colored images.
+- **Colored Mosaics**: Generated colored mosaic images that correspond to the original images by effectively solving the optimization challenges posed.
 
 ## Run and Test
 To get started with this project, clone the repository and set up the environment:
