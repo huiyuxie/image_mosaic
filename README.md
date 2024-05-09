@@ -10,7 +10,7 @@ This repository, `image_mosaic`, is dedicated to exploring and implementing adva
 ## Problems
 This project investigates two main classes of imaging problems:
 
-1. **Inpainting**: This task involves techniques for reconstructing lost or deteriorated parts of images and videos. The goal is to restore images in a way that is seamless and undetectable to an ordinary observer.
+1. **Image Inpainting**: This task involves techniques for reconstructing lost or deteriorated parts of images and videos. The goal is to restore images in a way that is seamless and undetectable to an ordinary observer.
 
 2. **Mosaic Generation**: In this task, the aim is to combine various pieces of images (potentially from multiple sources) into a single cohesive image that represents a new, artistic interpretation of the combined visuals.
 
