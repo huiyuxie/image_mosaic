@@ -31,6 +31,7 @@ cd image_mosaic
 # Run and test part1_1.m 
 # Run and test part1_2A.m and part1_2B.m
 # Run and test part2.m
+# Check the generated images against the images in the results
 ```
 
 
